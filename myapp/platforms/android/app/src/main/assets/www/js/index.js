@@ -40,6 +40,15 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+
+        document.getElementById("cordovaDevice").addEventListener("click", cordovaDevice);	
+        function cordovaDevice() {
+            alert("Cordova version: " + device.cordova + "\n" +
+               "Device model: " + device.model + "\n" +
+               "Device platform: " + device.platform + "\n" +
+               "Device UUID: " + device.uuid + "\n" +
+               "Device version: " + device.version);
+         }
     }
 };
 
