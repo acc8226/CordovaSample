@@ -1,0 +1,17 @@
+{
+  "name": "org.bar.foo",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "org.bar.foo",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "likai",
+  "license": "ISC"
+}

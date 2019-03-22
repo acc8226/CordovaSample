@@ -12,12 +12,14 @@
     "dependencies": {
         "cordova-android": "^7.1.4",
         "cordova-plugin-device": "^2.0.2",
-        "cordova-plugin-whitelist": "^1.3.3"
+        "cordova-plugin-whitelist": "^1.3.3",
+        "org.bar.foo": "file:../NN/MyPluginName"
     },
     "cordova": {
         "plugins": {
             "cordova-plugin-whitelist": {},
-            "cordova-plugin-device": {}
+            "cordova-plugin-device": {},
+            "org.bar.foo": {}
         },
         "platforms": [
             "android"

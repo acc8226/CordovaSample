@@ -14,5 +14,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "org.bar.foo": {
+    "source": {
+      "type": "local",
+      "path": "D:\\CCordova\\myapp\\node_modules\\org.bar.foo"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

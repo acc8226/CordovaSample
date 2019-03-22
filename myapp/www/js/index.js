@@ -49,6 +49,17 @@ var app = {
                "Device UUID: " + device.uuid + "\n" +
                "Device version: " + device.version);
         }
+
+        document.getElementById("sayHello").addEventListener("click", hehehe);	
+        function hehehe() {
+            cordova.plugins.MyPluginName.coolMethod('aaaa',
+            function(echoValue) {
+                alert('Success' + echoValue); // should alert true.
+            },
+            function(echoValue) {
+                alert('Failure' + echoValue); // should alert true.
+            } )
+        }
     }
 };
 

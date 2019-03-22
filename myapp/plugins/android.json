@@ -12,6 +12,9 @@
     },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "org.bar.foo": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
   "dependent_plugins": {}
