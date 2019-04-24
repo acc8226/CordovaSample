@@ -7,10 +7,21 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-    <feature name="MyPluginName">
-        <param name="android-package" value="org.bar.foo.MyPluginName" />
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
     </feature>
-    <name>HelloCordova</name>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="Zip">
+        <param name="android-package" value="org.apache.cordova.Zip" />
+    </feature>
+    <name>移动保全</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>

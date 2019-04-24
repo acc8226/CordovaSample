@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
+    <name>移动保全</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -24,6 +24,9 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="cordova-plugin-device" spec="^2.0.2" />
-    <plugin name="org.bar.foo" spec="D:\CCordova\NN\MyPluginName" />
+    <plugin name="cordova-plugin-file" spec="^6.0.1" />
+    <plugin name="cordova-plugin-zip" spec="^3.1.0" />
+    <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
+    <plugin name="cordova-plugin-file-transfer" spec="^1.7.1" />
     <engine name="android" spec="^7.1.4" />
 </widget>
